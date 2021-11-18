@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Complete Responsive Website</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Food<span>.</span></a>
+      <ul class="navigation">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#Expert">Expert</a></li>
+        <li><a href="#Testimonials">Testimonials</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </header>
+    <!-- BANNER  -->
+    <section class="banner" id="banner">
+      <div class="content">
+        <h2>Always Choose Good</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe,
+          quibusdam! Soluta, sit aperiam, modi distinctio voluptas enim
+          reiciendis eos tempore, doloremque quidem omnis.
+        </p>
+        <a class="btn" href="#">Our Menu</a>
+      </div>
+    </section>
+    <!-- BANNER  -->
+
+    <!-- ABOUT  -->
+    <section class="about" id="about">
+      <div class="row">
+        <div class="col50">
+          <h2><span>A</span>bout Us</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+            voluptatem tempora ullam excepturi nisi? Fuga dolore architecto
+            ratione nostrum, ut quidem recusandae qui.<br /><br />Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Amet, eius? Officiis
+            magni enim, unde eum, nulla eos numquam nihi.
+          </p>
+        </div>
+      </div>
+      <div class="col50">
+          <div class="imgBX">
+              <img src="./images//img1.jpg">
+          </div>
+      </div>
+    </section>
+    <!-- ABOUT  -->
+
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
+</html>
